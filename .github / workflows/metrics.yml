@@ -16,25 +16,24 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           
-          # Configuração Visual (Inspirada na sua Paleta)
+      
           config_timezone: America/Bahia
           config_order: base.header, isocalendar, languages, habits
-          
-          # Calendário 3D (Como na referência)
+
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           
-          # Linguagens (Python, Java, etc.)
+
           plugin_languages: yes
           plugin_languages_colors: "python:#60519b, java:#31323e, luau:#bfc0d1"
           plugin_languages_details: bytes-size, percentage
           
-          # Hábitos de Programação
+
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           
-          # Estética Dark/Purple
           config_padding: 0, 8%
           design_layout: compact
           style: |
